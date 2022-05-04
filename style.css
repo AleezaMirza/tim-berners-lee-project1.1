@@ -1,0 +1,99 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+#welcome{
+    position:absolute;
+    background: linear-gradient(#a6ffe9 0% , #ffbde7 100%);
+    width: 100%;
+    height: 800px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.profile{
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color:chocolate;
+}
+
+#name{
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+    color:darkmagenta;
+    text-shadow: 2px 2px 5px goldenrod;
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#bio p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 4px auto;
+}
+
+.menu{
+    top: 10px;
+    right: 30px;
+    position: fixed;
+    z-index: 9999;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.link{
+    float: left;
+    padding: 12px;
+    font-size: 20px;
+    font-family: serif;
+    color:blueviolet;
+    font-weight: bolder;
+ }
+
+.link:hover{
+    font-size: 25px;
+    color:darkgreen;
+    background-color: antiquewhite;
+}
+
+.article{
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none ;
+}
+
+.article:hover{
+    font-size: 20px;
+    color:brown;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
